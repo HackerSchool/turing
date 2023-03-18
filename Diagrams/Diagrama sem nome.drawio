@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T22:12:20.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="E9YGKmcr8NsehIa9hRzV" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T22:29:48.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="4eFcWpZCGpgbYxm1tR7n" version="21.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,8 +20,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="Qd1Z7RHTw6pURVh9gfv0-10">
+        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="rxbA8oqwe8ahJq8Qh0FR-5">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="420" as="targetPoint" />
             <Array as="points">
               <mxPoint x="310" y="300" />
               <mxPoint x="95" y="300" />
@@ -62,11 +63,14 @@
         <mxCell id="Qd1Z7RHTw6pURVh9gfv0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rxbA8oqwe8ahJq8Qh0FR-2" target="Qd1Z7RHTw6pURVh9gfv0-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rxbA8oqwe8ahJq8Qh0FR-2" target="Qd1Z7RHTw6pURVh9gfv0-10">
+        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rxbA8oqwe8ahJq8Qh0FR-2" target="rxbA8oqwe8ahJq8Qh0FR-5">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="445" as="targetPoint" />
             <Array as="points">
               <mxPoint x="600" y="400" />
               <mxPoint x="600" y="445" />
+              <mxPoint x="100" y="445" />
+              <mxPoint x="100" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -101,12 +105,6 @@
         </mxCell>
         <mxCell id="Qd1Z7RHTw6pURVh9gfv0-0" value="DC motor driver&lt;br&gt;L298N /L293N&amp;nbsp;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="189" y="380" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Qd1Z7RHTw6pURVh9gfv0-10" target="rxbA8oqwe8ahJq8Qh0FR-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-10" value="&lt;br&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#374151&quot;&gt;PCA9685 like&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#374151&quot;&gt;servo&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(55, 65, 81); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; background-color: initial;&quot;&gt;controller&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#374151&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="35" y="420" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qd1Z7RHTw6pURVh9gfv0-19" value="LCD &amp;amp; MORE" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" collapsed="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="810" y="200" width="140" height="30" as="geometry">
@@ -153,6 +151,12 @@
         </mxCell>
         <mxCell id="Qd1Z7RHTw6pURVh9gfv0-34" value="Todos os motores exceto os servos poderiam correr em 12v (mas na pior das hipóteses faz se assim como está)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="700" y="480" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-36" value="&lt;br&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#374151&quot;&gt;PCA9685 like&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#374151&quot;&gt;servo&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(55, 65, 81); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; background-color: initial;&quot;&gt;controller&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#374151&quot;&gt;(utilizar&amp;nbsp;o power doutro&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot;&gt;&lt;font face=&quot;Söhne, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji&quot; color=&quot;#374151&quot;&gt;sitio e o signal do arduino)&lt;/font&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="9" y="610" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-40" value="mete se a 6v para os servos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="800" y="450" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
