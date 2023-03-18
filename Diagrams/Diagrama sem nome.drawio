@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-18T20:31:01.014Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="W0nKXP2jkT-W9cSeDsR9" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-18T22:12:20.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="E9YGKmcr8NsehIa9hRzV" version="21.0.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,6 +142,17 @@
         </mxCell>
         <mxCell id="Qd1Z7RHTw6pURVh9gfv0-30" value="STEPPER motor&lt;br&gt;driver" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="325" y="350" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Qd1Z7RHTw6pURVh9gfv0-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qd1Z7RHTw6pURVh9gfv0-34" value="Todos os motores exceto os servos poderiam correr em 12v (mas na pior das hipóteses faz se assim como está)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="480" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
